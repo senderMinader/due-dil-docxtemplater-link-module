@@ -1,13 +1,13 @@
 
 # docxtemplater-link-module
-Hyperlink module for [docxtemplater](https://github.com/open-xml-templating/docxtemplater)
+Hyperlink module for [docxtemplater](https://github.com/open-xml-templating/docxtemplater). This is a fork of the original docxtemplater-link-module for personal use purpose.
 
 [![Download count](https://img.shields.io/npm/dt/docxtemplater-link-module.svg?style=flat)](https://www.npmjs.org/package/docxtemplater-link-module)
 [![ghit.me](https://ghit.me/badge.svg?repo=sujith3g/docxtemplater-link-module)](https://ghit.me/repo/sujith3g/docxtemplater-link-module)
 [![Build Status](https://travis-ci.org/sujith3g/docxtemplater-link-module.svg?branch=master)](https://travis-ci.org/sujith3g/docxtemplater-link-module)
 
 ## Installation:
-You will need docxtemplater v2.1.1: `npm install docxtemplater`
+You will need docxtemplater v2.1.1 installed with the alias 'docxtemplater-old': `npm install docxtemplater-old@npm:docxtemplater@2.1.1`
 
 Install this module: `npm install docxtemplater-link-module`
 
