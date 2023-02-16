@@ -2,7 +2,7 @@
 
   fs = require('fs');
 
-  DocxGen = require('docxtemplater');
+  DocxGen = require('docxtemplater-old');
 
   expect = require('chai').expect;
 

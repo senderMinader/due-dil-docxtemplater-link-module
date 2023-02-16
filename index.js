@@ -1,6 +1,6 @@
 var LinkManager, LinkModule, SubContent;
 
-SubContent = require('docxtemplater').SubContent;
+SubContent = require('docxtemplater-old').SubContent;
 
 LinkManager = require('./src/linkManager');
 
