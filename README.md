@@ -9,7 +9,7 @@ Hyperlink module for [docxtemplater](https://github.com/open-xml-templating/docx
 ## Installation:
 You will need docxtemplater v2.1.1 installed with the alias 'docxtemplater-old': `npm install docxtemplater-old@npm:docxtemplater@2.1.1`
 
-Install this module: `npm install docxtemplater-link-module`
+Install this module: `npm install senderMinader/due-dil-docxtemplater-link-module`
 
 ## Usage: Text and URL
 
