@@ -9,7 +9,7 @@ LinkModule = (function () {
   function LinkModule (options) {
     this.options = options | {};
   }
-  LinkModule.prototype.postparse = function (event, eventData) {
+  LinkModule.prototype.handleEvent = function (event, eventData) {
     var gen;
     if (event === 'rendering-file') {
       this.renderingFileName = eventData;
@@ -21,14 +21,14 @@ LinkModule = (function () {
     }
   };
 
-  LinkModule.prototype.parse = function (type, data) {
+  LinkModule.prototype.handle = function (type, data) {
     if (type === 'replaceTag' && data === this.name) {
       this.replaceTag();
     }
     return null;
   };
 
-  LinkModule.prototype.render = function (data) {
+  LinkModule.prototype.get = function (data) {
     var templaterState;
     if (data === 'loopType') {
       templaterState = this.manager.getInstance('templaterState');
