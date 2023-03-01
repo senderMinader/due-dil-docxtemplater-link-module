@@ -1,7 +1,7 @@
 {
-  "name": "docxtemplater-link-module",
-  "version": "0.2.4",
-  "description": "Hyperlink module for docxtemplater",
+  "name": "due-dil-docxtemplater-link-module",
+  "version": "0.0.2",
+  "description": "Fork of the unofficial Hyperlink module for docxtemplater: sujith3g/docxtemplater-link-module",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -23,10 +23,10 @@
     "xmldom": "0.1.22"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "docxtemplater": "^2.1.1",
-    "gulp-browserify": "^0.5.0",
-    "jszip": "^2.4.0"
+    "chai": "1.10.0",
+    "docxtemplater": "3.16.1",
+    "gulp-browserify": "0.5.0",
+    "jszip": "2.4.0"
   },
   "bugs": {
     "url": "https://github.com/sujith3g/docxtemplater-link-module/issues"
